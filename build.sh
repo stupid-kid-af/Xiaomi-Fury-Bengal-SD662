@@ -22,9 +22,9 @@ echo -e "░▐█──░▐████─░█▌░▐█▌▐█▒▐�
 echo -e "░▐█▄█░▐█░▐█░▐██░▐█▄█▀▒▐██▄█▌▒▐█▀▄▄░▐██$nocol"
 echo -e " "
 
-ZIPNAME="Chidori-Kernel-juice-$(date '+%Y%m%d-%H%M').zip"
+ZIPNAME="Fury-Bengal-juice-$(date '+%Y%m%d-%H%M').zip"
 TC_DIR="$HOME/toolchains/proton-clang"
-DEFCONFIG="vendor/juice-perf_defconfig"
+DEFCONFIG="vendor/citrus-perf_defconfig"
 
 export PATH="$TC_DIR/bin:$PATH"
 export KBUILD_BUILD_USER=melles1991
