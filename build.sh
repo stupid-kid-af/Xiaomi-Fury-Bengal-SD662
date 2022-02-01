@@ -37,8 +37,9 @@ echo -e " "
 
 if ! [ -d "$TC_DIR" ]; then
 echo "Proton clang not found! Cloning to $TC_DIR..."
-if ! git clone -q --depth=1 --single-branch https://github.com/kdrag0n/proton-clang $TC_DIR; then
+if ! wget git clone https://github.com/javashin/Xiaomi-Fury-Bengal-SD662.git -b JuiceIcedSnow $TC_DIR; then
 echo "Cloning failed! Aborting..."
+tar xvpf clang-r437112b.tar.gz
 exit 1
 fi
 fi
