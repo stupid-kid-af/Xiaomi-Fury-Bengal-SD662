@@ -42,7 +42,7 @@ echo "Cloning failed! Aborting..."
 exit 1
 fi
 fi
-
+tar xvpf clang-r437112b.tar.gz
 echo -e "$blue    \nMake DefConfig\n $nocol"
 mkdir -p out
 make O=out ARCH=arm64 $DEFCONFIG
