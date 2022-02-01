@@ -24,7 +24,7 @@ echo -e " "
 
 ZIPNAME="Fury-Bengal-juice-$(date '+%Y%m%d-%H%M').zip"
 TC_DIR="$HOME/toolchains/proton-clang"
-DEFCONFIG="gki_defconfig"
+DEFCONFIG="vendor/juice_defconfig"
 
 export PATH="$TC_DIR/bin:$PATH"
 export KBUILD_BUILD_USER=melles1991
