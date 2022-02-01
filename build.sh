@@ -37,7 +37,7 @@ echo -e " "
 
 if ! [ -d "$TC_DIR" ]; then
 echo "Proton clang not found! Cloning to $TC_DIR..."
-if ! wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master/clang-r437112b.tar.gz $TC_DIR; then
+if ! wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master/clang-r437112b.tar.gz -P $TC_DIR; then
 echo "Cloning failed! Aborting..."
 exit 1
 fi
